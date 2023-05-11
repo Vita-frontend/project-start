@@ -6,44 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figma land</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <header>
-        <img width="200" src="img/main-photo.png" alt="people use computer">
+    <header class="header">
+
         <nav>
-            <div class="menu">
+            <div class="header__menu">
                 <a href="#">Home</a>
                 <a href="#">Product</a>
                 <a href="#">Pricing</a>
                 <a href="#">About</a>
                 <a href="#">Contact</a>
             </div>
-            <div class="logo-figma"><img src="img/logo-figma.png" alt="Figma logo">
+            <div class="header__logo-figma"><img src="img/logo-figma.png" alt="Figma logo">
             </div>
-            <div class="social-icons"><img src="img/logo-social-icons.png" alt="icons">
+            <div class="header__social-icons"><img src="img/logo-social-icons.png" alt="icons">
             </div>
         </nav>
         <div>
-            <h1 class="main-title">
+            <h1>
                 The best products
                 start with Figma
             </h1>
-            <p class="paragraph">Most calendars are designed for teams. Slate is designed
+            <p class="header__paragraph">Most calendars are designed for teams. Slate is designed
                 for freelancers</p>
-            <button class="blue-button" type="button">
+            <button class="header__blue-button" type="button">
                 Try For Free
             </button>
         </div>
     </header>
     <main>
-        <!-- Features -->
         <div>
             <h2 class="other-title">Features</h2>
             <p class="paragraph">Most calendars are
                 designed for teams. </p>
             <section>
-                <iframe src="https://youtu.be/_h9iaVrDCLE" frameborder="0"></iframe>
+                <video src="https://youtu.be/_h9iaVrDCLE" frameborder="0"></video>
                 <section>
                     <img src="img/logo-driwing.png" alt="logo-driwing">
                     <h3>OpenType features
@@ -72,7 +72,6 @@
                 </section>
             </section>
         </div>
-        <!-- Fastest way to organize  -->
         <div>
             <h2 class="other-title">Fastest way to
                 organize </h2>
@@ -120,18 +119,92 @@
                 Ui designer</p>
             <button type="button">More testimonials</button>
         </div>
-        <!-- Pricing -->
         <div>
             <h2 class="other-title">Pricing</h2>
             <p class="paragraph">Most calendars are
                 designed for teams. </p>
-
+            <div>
+                <div>
+                    <h5>FREE</h5>
+                    <p>Organize across all
+                        apps by hand</p>
+                    <div>0</div>
+                    <div>$ Per Month</div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button type="button">Order now</button>
+                </div>
+                <div>
+                    <h5>STANDARD</h5>
+                    <p>Organize across all
+                        apps by hand</p>
+                    <div>10</div>
+                    <div>$ Per Month</div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button type="button">Order now</button>
+                </div>
+                <div>
+                    <h5>BUSINESS</h5>
+                    <p>Organize across all
+                        apps by hand</p>
+                    <div>99</div>
+                    <div>$ Per Month</div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button type="button">Order now</button>
+                </div>
+            </div>
         </div>
-        <!-- Contact Us -->
-        <div>
-            <h2 class="other-title">Contact Us</h2>
-            <p class="paragraph">Most calendars are designed for teams.
+        <div class="contact">
+            <h2 class="contact__other-title">Contact Us</h2>
+            <p class="contact__paragraph">Most calendars are designed for teams.
                 Slate is designed for freelancers</p>
+            <div class="contact__form">
+                <h4 class="contact__form-title">Contact Us</h4>
+                <form class="contact__form-data" action="#">
+                    <input class="contact__form-data-field" type="text" placeholder="Your Name">
+                    <input class="contact__form-data-field" type="text" placeholder="Your Email">
+                    <input class="contact__form-data-field" type="text" placeholder="Your Message">
+                    <button class="contact__form-button" type="button">Send</button>
+                </form>
+            </div>
+            <div>
+                <div class="contact__information">
+                    <img class="contact__social-icon" src="img/logo-social-icons.png" alt="social icons">
+                    <ul>
+                        <li>
+                            <img src="img/logo-map.png" alt="logo map">
+                            <p class="contact__information-adress">6386 Spring St undefined Anchorage,
+                                Georgia 12473 United States</p>
+                        </li>
+                        <li>
+                            <img src="img/logo-phone.png" alt="logo phone">
+                            <a href="tel:8435550130">(843) 555-0130</a>
+                        </li>
+                        <li>
+                            <img src="img/logo-letter.png" alt="logo letter">
+                            <a href="mailto:willie.jennings@example.com">willie.jennings@example.com</a>
+                        </li>
+                    </ul>
+                    <img src="img/photo-map.png" alt="map">
+                </div>
+            </div>
         </div>
     </main>
     <footer>
